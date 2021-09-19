@@ -9,6 +9,7 @@ import (
 )
 
 func main() {
+	fmt.Println("hello")
 	fmt.Printf("search: %d\n", BinarySearch.BinarySearch([]int{1, 2, 3, 4, 5}, 5))
 	fmt.Printf("search: %d\n", cBinarySearch.BinarySearch([]int{1, 2, 3, 4, 5}, 3))
 }
