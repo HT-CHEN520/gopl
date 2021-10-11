@@ -36,4 +36,13 @@ func main() {
 		}
 		fmt.Println()
 	}
+
+	map1 := make(map[int]int)
+
+	map1[10] = 100
+	map1[1] = 20
+	map1[4] = 13
+	map1[8] = 56
+	fmt.Println(map1)
+
 }
