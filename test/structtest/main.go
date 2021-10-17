@@ -11,7 +11,7 @@ import (
 在main方法中，创建Student结构体实例(变量)，并访问say方法，并将调用结果打印输出。
 
 */
-type Student struct {
+/* type Student struct {
 	name   string
 	gender string
 	age    int
@@ -26,7 +26,7 @@ func (student *Student) say() string {
 
 	return infoStr
 }
-
+*/
 /*
 1)编程创建一个Box结构体，在其中声明三个字段表示一个立方体的长、宽和高，长宽高要从终端获取
 2)声明一个方法获取立方体的体积。
