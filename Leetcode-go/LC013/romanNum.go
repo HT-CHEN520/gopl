@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//给定一个罗马数字，将其转换成整数。输入确保在 1 到 3999 的范围内。
 func romanToInt(s string) int {
 	m := map[byte]int{
 		'I': 1,
