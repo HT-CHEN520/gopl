@@ -68,14 +68,14 @@ func (visitor *Visitor) showPrice() {
 func main() {
 	//测试
 	//创建一个Student实例变量
-	var stu = Student{
+	/* var stu = Student{
 		name:   "tom",
 		gender: "male",
 		age:    18,
 		id:     1000,
 		score:  99.98,
 	}
-	fmt.Println(stu.say())
+	fmt.Println(stu.say()) */
 
 	//测试代码
 	var box Box
