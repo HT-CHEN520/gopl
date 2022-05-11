@@ -3,6 +3,7 @@ package binarysearch
 import "fmt"
 
 var findVal int
+  
 
 func BinarySearch(arr *[8]int) {
 
