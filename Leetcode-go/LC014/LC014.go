@@ -7,7 +7,6 @@ func longestCommonPrefix(strs []string) string {
 	}
 
 	maxPreLength := len(strs[0])
-
 	for i := 0; i < strlen; i++ {
 		if len(strs[i]) < maxPreLength {
 			maxPreLength = len(strs[i])
